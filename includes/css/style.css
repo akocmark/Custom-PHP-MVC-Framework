@@ -1,0 +1,54 @@
+html, body {
+	background: url(../img/background.png) repeat;
+}
+
+header {
+	background: url(../img/header.png) repeat; 
+	color: #fff;
+	padding: 20px 20px 5px 20px;
+}
+
+a.logo {
+	margin: 0 0 0 20px;
+	font-size: 25px;
+	color: #fff;
+	text-shadow: #000 -3px 5px 5px;
+}
+a.logo:hover { 
+	text-decoration: none;
+	color: #fff;
+}
+
+.form-signin {
+
+}
+
+a.profile {
+	color: #fff;
+}
+a.profile:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.dashboard {
+	border: solid #333 2px;
+	border-radius: 20px;
+	margin: 20px 0 0 0;
+	height: 80vh; 
+	border-top: none;
+}
+.dashboard .header {
+	background: #444 url(../img/dashboard-bg.png) repeat;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #f1f1f1;
+	line-height: 50px;
+	border-top-left-radius: 19px;
+	border-top-right-radius: 19px;
+}
+
+.main-content {
+	padding: 20px;
+}
